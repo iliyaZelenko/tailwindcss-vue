@@ -64,15 +64,11 @@ import { TailwindCssVue } from 'tailwindcss-vue'
 Vue.use(TailwindCssVue)
 ```
 
-2) Use in your components. Here is a complete example:
+2) Use `$tailwind` in your components. Here is a complete example:
 
 ```vue
 <template>
   <div>
-    <div class="bg-red-500 hover:bg-purple hover:text-white sm:bg-green-500 md:bg-blue-500 md:w-3/4 lg:bg-pink-500 lg:w-2/4 xl:bg-teal-500 xl:w-1/4">
-      Text
-    </div>
-  
     <div
       :class="$tailwind({
         default: 'bg-red-500',
