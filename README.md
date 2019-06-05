@@ -19,7 +19,7 @@
     </a>
   </p>
 
-The package it easy to use [Tailwind CSS](https://tailwindcss.com/) with Vue.
+The package makes it easy to use the [Tailwind CSS](https://tailwindcss.com/) with Vue.
 
 Without this package:
 
